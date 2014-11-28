@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "NotFound";
+}
+
+<h2>La informacion que buscaba no puedo ser encotrada</h2>
+<center><img src="~/Content/Pets/no-image.png" /></center>
+<h2>Detalles</h2>
+<ul>
+    <li><b>Codigo Error:</b>@ViewData["ErrorCode"]</li>
+    <li><b>Descripcion:</b>@ViewData["Description"]</li>
+</ul>
